@@ -10,6 +10,10 @@ Masuk ke direktori projek
 ```bash
 cd ./ruangprogrammer1
 ```
+Install npm module
+```bash
+npm install
+```
 Jalankan programnya, Buka terminal
 ```bash
 ionic serve

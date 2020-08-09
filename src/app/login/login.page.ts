@@ -22,7 +22,7 @@ export class LoginPage implements OnInit {
 
   doLogin() {
     if (this.username != '' && this.password != '') {
-      if (this.username == 'bisa' && this.password == '123') {
+      if (this.username == localStorage.getItem("Username") && this.password == localStorage.getItem("Password")) {
         this.router.navigateByUrl('/home');
       } else {
         this.alertSalah();

@@ -1,5 +1,8 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
     <ion-title>Registrasi</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -17,21 +20,15 @@
       <ion-input type="password" [(ngModel)]="password"></ion-input>
     </ion-item>
   </div>
-  <div class="ion-padding">
-    <ion-item class="ion-no-padding">
-      <ion-label position="floating">Re-Password</ion-label>
-      <ion-input type="password" [(ngModel)]="re-password"></ion-input>
-    </ion-item>
-  </div>
 
   <div class="ion-padding">
-    <ion-button expand="full" shape="round" (click)="doRegis()">Login</ion-button>
+    <ion-button expand="full" shape="round" color="success" (click)="doRegistrasi()">Daftar</ion-button>
   </div>
 
   <footer class="ion-no-border">
     <div style="text-align: center;">
       <ion-label>Sudah mempunyai akun ? </ion-label>
-      <ion-text color="primary" [routerLink]="['/login']" routerLinkActive="router-link-active">
+      <ion-text color="success" [routerLink]="['/login']" routerLinkActive="router-link-active">
         <ion-label>Login</ion-label>
       </ion-text>
     </div>

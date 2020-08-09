@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registrasi',
@@ -6,15 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registrasi.page.scss'],
 })
 export class RegistrasiPage implements OnInit {
-  constructor() {}
+  constructor(
+    private router: Router
+  ) {}
 
   ngOnInit() {}
 
-  username: string;
-  password: string;
+  username: string
+  password: string
 
-  doRegis() {
-    console.log("Username : " + this.username);
-    console.log('Password : ' + this.password);
+  doRegistrasi() {
+    localStorage.setItem('Username', this.username)
+    localStorage.setItem('Password', this.password)
+    this.router.navigateByUrl('/login')
   }
 }

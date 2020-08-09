@@ -1,22 +1,13 @@
 # Ruang programmer phase 1
+
 Membahas materi mengenai Ionicframework with Angular
 
-## Step By Step
-* Clone projek
-```bash
-git clone https://github.com/firhanhardiansyah/ruangprogrammer1.git
-```
-* Masuk ke direktori projek
-```bash
-cd ./ruangprogrammer1
-```
-* Install npm module
-```bash
-npm install
-```
-* Jalankan programnya, Buka terminal
-```bash
-ionic serve
-```
+## Getting Started
+* [Download the installer](https://nodejs.org/) for Node LTS.
+* Install the ionic CLI globally: `npm install -g ionic`
+* Clone this repository: `git clone https://github.com/firhanhardiansyah/ruangprogrammer1.git`.
+* Run `npm install` from the project root.
+* Run `ionic serve` in a terminal from the project root.
+* Profit. :tada:
 
 ## Let's Code . . .

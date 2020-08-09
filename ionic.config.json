@@ -1,5 +1,7 @@
 {
   "name": "BlankApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

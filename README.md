@@ -2,19 +2,19 @@
 Membahas materi mengenai Ionicframework with Angular
 
 ## Step By Step
-Clone projek
+* Clone projek
 ```bash
 git clone https://github.com/firhanhardiansyah/ruangprogrammer1.git
 ```
-Masuk ke direktori projek
+* Masuk ke direktori projek
 ```bash
 cd ./ruangprogrammer1
 ```
-Install npm module
+* Install npm module
 ```bash
 npm install
 ```
-Jalankan programnya, Buka terminal
+* Jalankan programnya, Buka terminal
 ```bash
 ionic serve
 ```
